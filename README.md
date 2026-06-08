@@ -1,4 +1,9 @@
-# Olist E-Commerce End-to-End Project
+## Metadata
+- Project: Olist End-to-End Analytics
+- Layer: Data Warehouse / ETL / EDA
+- Tools: SQL Server, Python, Power BI
+
+
 
 ## Project Overview
 

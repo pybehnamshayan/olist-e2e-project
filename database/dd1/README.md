@@ -1,3 +1,10 @@
+## Metadata
+- Project: Olist End-to-End Analytics
+- Layer: Data Warehouse / ETL / EDA
+- Tools: SQL Server, Python, Power BI
+
+
+
 # DDL Scripts - Olist Project
 
 ## Overview

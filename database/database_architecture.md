@@ -1,3 +1,11 @@
+## Metadata
+- Project: Olist End-to-End Analytics
+- Layer: Data Warehouse / ETL / EDA
+- Tools: SQL Server, Python, Power BI
+
+
+
+
 # Database Architecture - Olist Project
 
 ## Overview
