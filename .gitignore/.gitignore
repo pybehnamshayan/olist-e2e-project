@@ -1,11 +1,101 @@
-__pycache__/
-*.pyc
+# =====================
+
+# Python
+
+# =====================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Jupyter
+
 .ipynb_checkpoints/
 
-data/raw/
-data/processed/
+# =====================
+
+# Environment Variables
+
+# =====================
 
 .env
+.env.*
+
+# =====================
+
+# Data Files
+
+# =====================
+
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.xls
+
+# Large exports
+
+*.parquet
+*.feather
+
+# =====================
+
+# Power BI
+
+# =====================
+
+*.tmp
+
+# Uncomment if PBIX becomes too large
+
+# *.pbix
+
+# =====================
+
+# Logs
+
+# =====================
+
+*.log
+
+# =====================
+
+# OS Files
+
+# =====================
+
+.DS_Store
+Thumbs.db
+
+# =====================
+
+# VS Code
+
+# =====================
+
+.vscode/
+
+# =====================
+
+# SQL Backups
+
+# =====================
 
 *.bak
-*.tmp
+
+# =====================
+
+# Keep Project Structure
+
+# =====================
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
