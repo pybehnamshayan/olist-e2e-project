@@ -27,6 +27,22 @@ This project provides an end-to-end data analytics and engineering solution usin
 - Power BI
 - Git & GitHub
 
+
+## Executive Summary
+
+Key Findings:
+
+- Revenue peaks on Monday and Tuesday.
+- Weekend sales decline significantly.
+- Several product categories maintain stable demand throughout the week.
+- Bundle campaigns can increase weekend conversion rates.
+
+Business Recommendations:
+
+- Launch targeted weekend promotions.
+- Bundle high-performing products with low-performing products.
+- Improve inventory allocation for high-demand categories.
+
 ---
 
 ## Project Structure
