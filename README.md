@@ -1,47 +1,141 @@
-## Metadata
-- Project: Olist End-to-End Analytics
-- Layer: Data Warehouse / ETL / EDA
-- Tools: SQL Server, Python, Power BI
+# Olist Customer Analytics & Business Intelligence Platform
 
-
+[![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red)](#)
+[![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20NumPy-blue)](#)
+[![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-yellow)](#)
+[![Methodology](https://img.shields.io/badge/Methodology-Star%20Schema%20%7C%20RFM-orange)](#)
+[![Customer Analytics](https://img.shields.io/badge/Customer%20Analytics-Churn%20Analysis-green)](#)
+[![Business Impact](https://img.shields.io/badge/Revenue%20Opportunity-65.8%25-success)](#)
 
 ## Project Overview
 
-This project provides an end-to-end data analytics and engineering solution using the Olist Brazilian E-Commerce dataset. The pipeline covers all steps from raw data ingestion to analytical dashboards and machine learning.
+This project demonstrates an end-to-end analytics solution built using the Olist Brazilian E-Commerce dataset.
 
-**Key Components:**
+The objective was not only to build a Data Warehouse and reporting infrastructure, but also to extract actionable business insights that can directly support decision-making, customer retention, and revenue optimization.
 
-- Data ingestion and storage
-- Database design (Operational + Data Warehouse)
-- ETL and data transformation
-- Star Schema design for analytical queries
-- Exploratory Data Analysis (EDA)
-- Dashboard creation (Power BI)
-- Machine learning models for business insights
+The project covers the complete analytics lifecycle:
 
-**Technologies Used:**
+* Data Extraction & Validation
+* Data Cleaning & Preparation
+* Data Warehouse Design
+* Star Schema Modeling
+* ETL Development
+* Exploratory Data Analysis (EDA)
+* Customer Segmentation (RFM)
+* Customer Churn Intelligence
+* Revenue Opportunity Analysis
+* Power BI Dashboards
+* Machine Learning (Next Phase)
 
-- PostgreSQL / MySQL (Database)
-- Python (Pandas, SQLAlchemy)
-- Jupyter Notebooks
-- Power BI
-- Git & GitHub
+---
 
+## Business Impact Highlights
 
-## Executive Summary
+### Revenue Opportunity Analysis
 
-Key Findings:
+A dedicated customer analytics study was conducted to compare:
 
-- Revenue peaks on Monday and Tuesday.
-- Weekend sales decline significantly.
-- Several product categories maintain stable demand throughout the week.
-- Bundle campaigns can increase weekend conversion rates.
+* Champion Customers
+* Lost High-Value Customers
 
-Business Recommendations:
+Key finding:
 
-- Launch targeted weekend promotions.
-- Bundle high-performing products with low-performing products.
-- Improve inventory allocation for high-demand categories.
+If high-value customers had been retained successfully, total revenue could have increased by:
+
+# +65.8%
+
+Financial Impact:
+
+| Metric                    | Value  |
+| ------------------------- | ------ |
+| Current Revenue           | $3.75M |
+| Lost Revenue Opportunity  | $2.47M |
+| Maximum Potential Revenue | $6.21M |
+
+---
+
+## Key Business Findings
+
+### Category Performance
+
+Top Revenue Categories:
+
+| Category             | Revenue |
+| -------------------- | ------- |
+| Bed, Bath & Table    | $3.42M  |
+| Health & Beauty      | $3.31M  |
+| Computer Accessories | $3.17M  |
+| Home Decoration      | $2.86M  |
+| Watches & Gifts      | $2.85M  |
+
+---
+
+### Sales Behavior
+
+* Monday and Tuesday generate the highest sales volume.
+* Weekend performance is significantly lower.
+* Several categories exhibit stable weekday demand patterns.
+
+---
+
+### Product Analysis
+
+Top Revenue Products:
+
+* telefonia_fixa
+* beleza_saude
+* ferramentas_jardim
+
+The analysis revealed a strong Pareto distribution where a small number of products generate a disproportionately large share of total revenue.
+
+---
+
+### Customer Analytics
+
+Customer segmentation was performed using the RFM methodology.
+
+Customer Segments:
+
+* Champions
+* Loyal Customers
+* Potential Loyalists
+* At Risk
+* Lost Customers
+* Others
+
+Top Segment Distribution:
+
+| Segment             | Customers |
+| ------------------- | --------- |
+| At Risk             | 22,967    |
+| Others              | 19,063    |
+| Loyal Customers     | 16,441    |
+| Lost Customers      | 15,463    |
+| Potential Loyalists | 15,450    |
+| Champions           | 6,712     |
+
+---
+
+## Advanced Customer Churn Intelligence
+
+A dedicated analysis was performed to identify:
+
+* High-value customers who churned
+* Lost revenue by product category
+* Retention opportunities
+* Categories at risk
+
+Critical Findings:
+
+* telefonia_fixa → Complete Champion Customer Loss
+* cool_stuff → Complete Champion Customer Loss
+* ferramentas_jardim → Lost Revenue exceeds active revenue
+* moveis_escritorio → Lost Revenue exceeds active revenue
+
+Best Retention Categories:
+
+* utilidades_domesticas
+* automotivo
 
 ---
 
@@ -49,29 +143,55 @@ Business Recommendations:
 
 ```text
 olist-e2e-project/
-│
-├── README.md                # This main file
-├── .gitignore
-│
-├── data/                    # Data files (raw & processed)
-│   ├── raw/
-│   └── processed/
-│
+
+├── README.md
+
 ├── database/
-│   ├── ddl/                 # DDL scripts
-│   ├── dml/                 # DML scripts
-│   └── star_schema/         # Star Schema scripts
-│
-├── docs/                    # Step-by-step documentation
-│   ├── 01_project_scope.md
-│   ├── 02_database_creation.md
-│   ├── 03_star_schema_design.md
-│   ├── 04_data_cleaning.md
-│   ├── 05_eda.md
-│   ├── 06_dashboard_design.md
-│   └── 07_machine_learning.md
-│
-├── notebooks/               # Jupyter notebooks for analysis
-├── dashboards/              # Power BI dashboards
-├── images/                  # Supporting images (ERD, charts)
-└── reports/                 # Exported reports
+│   ├── ddl/
+│   ├── dml/
+│   └── star_schema/
+
+├── notebooks/
+│   ├── 01_data_extraction_and_validation.ipynb
+│   ├── 02_exploratory_data_analysis.ipynb
+│   ├── 03_rfm_customer_segmentation.ipynb
+│   └── 04_champions_vs_lost_analysis.ipynb
+
+├── dashboards/
+│   └── Power BI Files
+
+├── images/
+
+└── reports/
+```
+
+## Technologies
+
+* SQL Server
+* Python
+* Pandas
+* NumPy
+* SQLAlchemy
+* Jupyter Notebook
+* Power BI
+* Git & GitHub
+
+---
+
+## Future Enhancements
+
+* Interactive Power BI Executive Dashboard
+* Customer Churn Prediction
+* Customer Lifetime Value (CLV)
+* Cohort Analysis
+* Market Basket Analysis
+* Recommendation Systems
+* Machine Learning Models
+
+---
+
+## Author
+
+Behnam Shayan
+
+Data Analyst | BI Analyst | Customer Analytics | Business Intelligence
