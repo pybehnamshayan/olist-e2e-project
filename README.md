@@ -1,11 +1,14 @@
 # Olist Customer Analytics & Business Intelligence Platform
 
-[![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red)](#)
-[![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20NumPy-blue)](#)
-[![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-yellow)](#)
-[![Methodology](https://img.shields.io/badge/Methodology-Star%20Schema%20%7C%20RFM-orange)](#)
-[![Customer Analytics](https://img.shields.io/badge/Customer%20Analytics-Churn%20Analysis-green)](#)
-[![Business Impact](https://img.shields.io/badge/Revenue%20Opportunity-65.8%25-success)](#)
+[![RFM](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
+
+[![Churn Analysis](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./notebooks/04_champions_vs_lost_analysis.ipynb)
+
+[![SQL Scripts](https://img.shields.io/badge/SQL-Star%20Schema-blue)](./database)
+
+[![Images](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./dashbords/images/)
+
+[![RFM Charts](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./dashbords/images/RFM)
 
 ## Project Overview
 
