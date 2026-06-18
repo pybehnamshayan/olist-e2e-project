@@ -1,14 +1,22 @@
 # Olist Customer Analytics & Business Intelligence Platform
 
-[![RFM](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-Data%20Warehouse-red)](./database)
 
-[![Churn Analysis](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./notebooks/04_champions_vs_lost_analysis.ipynb)
+[![Python ETL](https://img.shields.io/badge/Python-ETL%20Pipeline-blue)](./notebooks/01_data_extraction_and_validation.ipynb)
 
-[![SQL Scripts](https://img.shields.io/badge/SQL-Star%20Schema-blue)](./database)
+[![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashboards)
 
-[![Images](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./dashbords/images/)
+[![RFM Segmentation](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
 
-[![RFM Charts](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./dashbords/images/RFM)
+[![Customer Churn](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./notebooks/04_champions_vs_lost_analysis.ipynb)
+
+[![Business Impact](https://img.shields.io/badge/Business-Revenue%20Opportunity-success)](./notebooks/04_champions_vs_lost_analysis.ipynb)
+
+[![Star Schema](https://img.shields.io/badge/SQL-Star%20Schema-blueviolet)](./database)
+
+[![RFM Charts](https://img.shields.io/badge/Visualization-RFM%20Charts-informational)](./dashboards/images/RFM)
+
+[![Project Images](https://img.shields.io/badge/Visuals-Project%20Images-lightgrey)](./dashboards/images)
 
 ## Project Overview
 
