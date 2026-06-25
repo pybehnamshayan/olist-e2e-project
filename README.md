@@ -6,6 +6,8 @@
 
 [![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashbords/reports)
 
+[![Power BI Dashboard pictures](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashbords/images/Power%20BI/)
+
 [![RFM Segmentation](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
 
 [![Customer Churn](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./notebooks/04_champions_vs_lost_analysis.ipynb)
