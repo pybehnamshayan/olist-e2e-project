@@ -4,7 +4,7 @@
 
 [![Python ETL](https://img.shields.io/badge/Python-ETL%20Pipeline-blue)](./notebooks/01_data_extraction_and_validation.ipynb)
 
-[![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashboards/reports)
+[![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashbords/reports)
 
 [![RFM Segmentation](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
 
