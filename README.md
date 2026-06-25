@@ -4,9 +4,9 @@
 
 [![Python ETL](https://img.shields.io/badge/Python-ETL%20Pipeline-blue)](./notebooks/01_data_extraction_and_validation.ipynb)
 
-[![Power BI](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashbords/reports)
+[![Power BI Reports](https://img.shields.io/badge/PowerBI-Reports-F2C811?logo=powerbi&logoColor=black)](./dashbords/reports)
 
-[![Power BI Dashboard pictures](https://img.shields.io/badge/PowerBI-Dashboards-yellow)](./dashbords/images/Power%20BI/)
+[![Dashboard Preview](https://img.shields.io/badge/Dashboard-Preview-0078D4?logo=powerbi&logoColor=white)](./dashbords/images/Power%20BI/)
 
 [![RFM Segmentation](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
 
