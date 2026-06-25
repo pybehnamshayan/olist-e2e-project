@@ -14,9 +14,9 @@
 
 [![Star Schema](https://img.shields.io/badge/SQL-Star%20Schema-blueviolet)](./database)
 
-[![RFM Charts](https://img.shields.io/badge/Visualization-RFM%20Charts-informational)](./dashboards/images/RFM)
+[![RFM Charts](https://img.shields.io/badge/Visualization-RFM%20Charts-informational)](./dashbords/images/RFM)
 
-[![Project Images](https://img.shields.io/badge/Visuals-Project%20Images-lightgrey)](./dashboards/images)
+[![Project Images](https://img.shields.io/badge/Visuals-Project%20Images-lightgrey)](./dashbords/images)
 
 ## Project Overview
 
