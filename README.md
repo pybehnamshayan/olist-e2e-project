@@ -1,30 +1,30 @@
 # Olist Customer Analytics & Business Intelligence Platform
 
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-Data%20Warehouse-red)](./database)
-
 [![Python ETL](https://img.shields.io/badge/Python-ETL%20Pipeline-blue)](./notebooks/01_data_extraction_and_validation.ipynb)
-
-[![Power BI Reports](https://img.shields.io/badge/PowerBI-Reports-F2C811?logo=powerbi&logoColor=black)](./dashbords/reports)
-
-[![Dashboard Preview](https://img.shields.io/badge/Dashboard-Preview-0078D4?logo=powerbi&logoColor=white)](./dashbords/images/Power%20BI/)
-
+[![Power BI Reports](https://img.shields.io/badge/PowerBI-Reports-F2C811?logo=powerbi&logoColor=black)](./dashboards/reports)
+[![Dashboard Preview](https://img.shields.io/badge/Dashboard-Preview-0078D4?logo=powerbi&logoColor=white)](./dashboards/images/Power%20BI/)
 [![RFM Segmentation](https://img.shields.io/badge/Analytics-RFM%20Segmentation-green)](./notebooks/03_RFM_Customer_Segmentation.ipynb)
-
 [![Customer Churn](https://img.shields.io/badge/Analytics-Churn%20Analysis-orange)](./notebooks/04_champions_vs_lost_analysis.ipynb)
-
 [![Business Impact](https://img.shields.io/badge/Business-Revenue%20Opportunity-success)](./notebooks/04_champions_vs_lost_analysis.ipynb)
-
 [![Star Schema](https://img.shields.io/badge/SQL-Star%20Schema-blueviolet)](./database)
+[![RFM Charts](https://img.shields.io/badge/Visualization-RFM%20Charts-informational)](./dashboards/images/RFM)
+[![Project Images](https://img.shields.io/badge/Visuals-Project%20Images-lightgrey)](./dashboards/images)
+[![Executive Report](https://img.shields.io/badge/Executive-Business%20Recommendations%20PDF-C89B3C)](./reports/Executive_Business_Recommendations.pdf)
 
-[![RFM Charts](https://img.shields.io/badge/Visualization-RFM%20Charts-informational)](./dashbords/images/RFM)
+---
 
-[![Project Images](https://img.shields.io/badge/Visuals-Project%20Images-lightgrey)](./dashbords/images)
+### 📄 [Read the Executive Business Recommendations Report (PDF)](./reports/Executive_Business_Recommendations.pdf)
+
+A CEO/CFO-facing report that turns the technical analysis below into a business diagnosis, a quantified revenue opportunity, a segment-level retention strategy, a priority matrix, and a 90-day action plan.
+
+---
 
 ## Project Overview
 
-This project demonstrates an end-to-end analytics solution built using the Olist Brazilian E-Commerce dataset.
+The objective was to build an end-to-end analytics platform that connects data engineering, customer analytics, BI reporting, and executive decision-making.
 
-The objective was not only to build a Data Warehouse and reporting infrastructure, but also to extract actionable business insights that can directly support decision-making, customer retention, and revenue optimization.
+Rather than stopping at dashboards, the project translates analytical findings into quantified revenue opportunities, customer retention strategies, prioritized business actions, and a 90-day execution plan.
 
 The project covers the complete analytics lifecycle:
 
@@ -38,7 +38,29 @@ The project covers the complete analytics lifecycle:
 * Customer Churn Intelligence
 * Revenue Opportunity Analysis
 * Power BI Dashboards
+* **Executive Strategy & Business Recommendations**
 * Machine Learning (Next Phase)
+
+---
+
+## From Data to Decision: The Executive Layer
+
+Most portfolio projects stop at "here is the dashboard." This one goes one step further: every technical finding below is translated into a business diagnosis, a dollar figure, and a recommended action — culminating in a standalone [**Executive Business Recommendations report**](./reports/Executive_Business_Recommendations.pdf) covering:
+
+| Section | What it answers |
+|---|---|
+| Current Business Situation | What state is the business actually in? |
+| Top 5 Problems | What's actually broken, ranked? |
+| Revenue at Risk | How much money is this costing, precisely? |
+| Revenue Opportunities | Where is the recoverable upside? |
+| Customer Retention Strategy | What does each customer segment need? |
+| Product Strategy | Which categories to protect, fix, or sunset? |
+| Recommended Actions | What should leadership actually do? |
+| Expected Financial Impact | What's the ROI under different scenarios? |
+| Priority Matrix | What gets done first? |
+| 90-Day Action Plan | What happens week by week? |
+
+This is the layer that turns "I analyzed the data" into "I diagnosed the business, quantified the opportunity, and gave leadership a plan."
 
 ---
 
@@ -51,11 +73,11 @@ A dedicated customer analytics study was conducted to compare:
 * Champion Customers
 * Lost High-Value Customers
 
-Key finding:
+Key finding — the **potential upside**, not revenue already realized:
 
-If high-value customers had been retained successfully, total revenue could have increased by:
+### +65.8% Revenue Opportunity
 
-# +65.8%
+*If high-value customers had been retained, total revenue could be up to 65.8% higher than it is today.*
 
 Financial Impact:
 
@@ -64,6 +86,8 @@ Financial Impact:
 | Current Revenue           | $3.75M |
 | Lost Revenue Opportunity  | $2.47M |
 | Maximum Potential Revenue | $6.21M |
+
+*Full recapture scenarios (conservative / moderate / aggressive) are modeled in the [Executive Report](./reports/Executive_Business_Recommendations.pdf).*
 
 ---
 
@@ -118,14 +142,16 @@ Customer Segments:
 
 Top Segment Distribution:
 
-| Segment             | Customers |
-| ------------------- | --------- |
-| At Risk             | 22,967    |
-| Others              | 19,063    |
-| Loyal Customers     | 16,441    |
-| Lost Customers      | 15,463    |
-| Potential Loyalists | 15,450    |
-| Champions           | 6,712     |
+| Segment             | Customers | Share of Base |
+| ------------------- | --------- | -------------- |
+| At Risk             | 22,967    | 26.4% |
+| Others              | 19,063    | 21.9% |
+| Loyal Customers     | 16,441    | 18.9% |
+| Lost Customers      | 15,463    | 17.8% |
+| Potential Loyalists | 15,450    | 17.8% |
+| Champions           | 6,712     | 7.7%  |
+
+Champions — the segment that historically drives disproportionate revenue — make up only 7.7% of the customer base, while At Risk and Lost customers together make up 44.2%. This distribution is the starting point for the retention strategy laid out in the Executive Report.
 
 ---
 
@@ -150,6 +176,8 @@ Best Retention Categories:
 * utilidades_domesticas
 * automotivo
 
+*→ These findings are prioritized into concrete actions in the [Executive Report's Priority Matrix and 90-Day Plan](./reports/Executive_Business_Recommendations.pdf).*
+
 ---
 
 ## Project Structure
@@ -171,11 +199,13 @@ olist-e2e-project/
 │   └── 04_champions_vs_lost_analysis.ipynb
 
 ├── dashboards/
-│   └── Power BI Files
-
-├── images/
+│   ├── reports/
+│   └── images/
+│       ├── Power BI/
+│       └── RFM/
 
 └── reports/
+    └── Executive_Business_Recommendations.pdf
 ```
 
 ## Technologies
@@ -193,7 +223,7 @@ olist-e2e-project/
 
 ## Future Enhancements
 
-* Interactive Power BI Executive Dashboard
+* ✅ Executive Business Recommendations Report — *Completed*
 * Customer Churn Prediction
 * Customer Lifetime Value (CLV)
 * Cohort Analysis
@@ -205,6 +235,8 @@ olist-e2e-project/
 
 ## Author
 
-Behnam Shayan
+**Behnam Shayan**
 
-Data Analyst | BI Analyst | Customer Analytics | Business Intelligence
+Customer Insights & Business Intelligence Analyst — Data Analytics | Customer Analytics | Business Strategy
+
+[GitHub](https://github.com/pybehnamshayan) · [LinkedIn](#)
